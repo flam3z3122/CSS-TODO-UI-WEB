@@ -1,0 +1,132 @@
+/* page 1 blur content  */
+
+.content{
+    filter: blur(5px);
+}
+
+.main{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 300px;
+    padding-top: 30px;
+
+}
+.lists{
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+     color: gray;
+
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    border: 1px solid red;
+    height: 350px;
+    width: 210px;
+    margin: 20px;
+    border-radius: 10px;
+   color: rgb(255, 89, 89);
+   text-align: center;
+   box-shadow: 8px 8px 6px rgb(185, 185, 185);
+   font-family: Arial, Helvetica, sans-serif;
+}  
+
+hr{
+    margin-left: 35px;
+    margin-top: -15px;
+}
+
+.h3{
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight:lighter;
+     font-size: 25px;
+}
+
+.p{
+    padding-top: 30px;
+    color: red;
+    text-decoration: line-through;
+    font-size: 22px;
+}
+
+.task{
+    font-size: 20px;
+    color: black;
+    width: 15px;
+    height: 15px;
+}
+
+.add{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 25px;
+    
+
+}
+
+.list{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 30px;
+    position: absolute;
+    right: 330px;
+    top: 95px;
+    color: grey
+}
+
+.fa-circle-plus:before, .fa-plus-circle:before {
+    content: "\f055";
+    position: absolute;
+    font-size: 39px;
+    right: 450px;
+    top: 116px;
+    color: red;
+}
+.link{
+    text-decoration: none;
+    color: rgb(255, 89, 89);
+
+}
+
+
+/* Add list  */
+
+.new{
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 8px 8px 6px rgb(185, 185, 185);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin-top: 167px;
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    top: 110px;
+    left: 475px;
+    background: white;
+
+}
+.para{
+    margin-top: 34px;
+    font-size: 22px;
+}
+
+.a1{
+    font-size: 22px;
+
+}
+button{
+    background-color: red;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 22px;
+}
